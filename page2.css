@@ -1,0 +1,166 @@
+/* Page 2 */
+body {
+    font-family: "lato", sans-serif; /* Default font */
+    font-size: 15px;
+    color: #0d0c0c; /* Default text color */
+    line-height: 1.6; /* Improves readability */
+    background-color: white; /* Light gray background */
+    padding: 20px; /* Adds padding around the content */
+}
+  
+  .list2 {
+    width: 100%;
+    padding: 8px;
+    background-color: #ffffff; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+    
+  .list2 h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .list2 {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list2 {
+    background-color: #ffffff; /* White background for each service */
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list2 li h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark text color */
+  }
+  
+  .list2 li p {
+    font-size: 1rem;
+    color: #555; /* Lighter text color for descriptions */
+  }
+  
+  .list2 li:hover {
+    background-color: #f0f8ff; /* Light blue background on hover */
+    border-color: #dead4b; /* Blue border on hover */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+
+/* Mobile responsiveness */
+
+  h1 {
+      margin-bottom: 20px;
+  }
+.but
+{
+    background-color: black; /* Blue background */
+    color: #fff; /* White text */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Removes the underline */
+}
+/* Mobile responsiveness */
+  /* Responsive Design: Make the footer elements stack on smaller screens */
+  @media (max-width: 768px) {
+    footer {
+      padding: 30px 10px;  /* Adjust padding for smaller screens */
+    }
+  
+    footer h2 {
+      font-size: 1.5rem;    /* Smaller heading font size */
+    }
+  
+q    footer p {
+      font-size: 0.9rem;    /* Smaller text size for paragraphs */
+    }
+    .general {
+      position: absolute; /* Ensure proper positioning context */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .general {
+        justify-content: center; /* Center items */
+    }
+}
+  }
+  /* General container for the header */
+.general {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px;
+  border: 0px solid #7f786b;
+  background-color: #f8f8f8; /* Light background for dropdown */
+  z-index: 10;
+  width: 30%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #817c73; /* Gold color for button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-button:hover {
+  background-color: #ca8921; /* Darker gold on hover */
+}
+
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+  text-align: left;
+  text-transform: none;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-transform: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+  text-transform: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+  text-transform: none;
+}
